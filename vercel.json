@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "brownfield.ae"
+        }
+      ],
+      "destination": "https://www.brownfield.ae/$1",
+      "permanent": true
+    }
+  ]
+}
